@@ -3,7 +3,7 @@ package ejercicios;
 import java.io.*;
 import java.util.Arrays;
 import java.util.Scanner;
-
+// Ejercicio 1
 public class ej1 {
    private static String DIR = "C:\\Users\\antonio";
    private static String FILE_INFO_DIRECTION = "Act1.1\\carpetas.txt";
