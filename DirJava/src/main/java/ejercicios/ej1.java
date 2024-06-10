@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 // Ejercicio 1
 public class ej1 {
-   private static String DIR = "C:\\Users\\antonio";
+   private static String DIREC = "C:\\Users\\antonio";
    private static String FILE_INFO_DIRECTION = "Act1.1\\carpetas.txt";
 // Método main
    public static void main(String[] args) {
@@ -14,7 +14,7 @@ public class ej1 {
 	   // Obtenemos las direcciones del fichero
 	   String[] directions = getData(fichero);
       for (int i = 0; i < directions.length; i++) {
-         fichero = new File(DIR + "\\" + directions[i]);
+         fichero = new File(DIREC + "\\" + directions[i]);
          createDir(fichero);
       }
    }
