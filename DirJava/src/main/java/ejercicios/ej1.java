@@ -9,8 +9,10 @@ public class ej1 {
    private static String FILE_INFO_DIRECTION = "Act1.1\\carpetas.txt";
 
    public static void main(String[] args) {
-      File fichero = new File(FILE_INFO_DIRECTION);
-      String[] directions = getData(fichero);
+      // Creamos el fichero
+	   File fichero = new File(FILE_INFO_DIRECTION);
+	   // Obtenemos las direcciones del fichero
+	   String[] directions = getData(fichero);
       for (int i = 0; i < directions.length; i++) {
          fichero = new File(DIR + "\\" + directions[i]);
          createDir(fichero);
